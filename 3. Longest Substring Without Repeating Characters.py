@@ -2,10 +2,7 @@ def lengthOfLongestSubstring(s: str) -> int:
     ans = l = 0
     alp = {}
 
-    for i in range(97, 123):
-        alp[chr(i)] = 0
-
-    for i in range(32, 91):
+    for i in range(32, 123):
         alp[chr(i)] = 0
 
 
